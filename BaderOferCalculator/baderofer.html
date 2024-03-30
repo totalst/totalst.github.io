@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <link rel="stylesheet" href="baderofer.css">
+	  <title>Bader-Ofer Calculator</title>
+    </head>
+    <body>
+      <h1>Bader-Ofer Calculator</h1>
+      <div> <!-- Main Div-->
+		<div id="bader_ofer_input"> 
+			<h2>Input:</h2>
+			<button id="party_add_button">Add a Party</button>
+		</div>
+		
+		<div id="bader_ofer_output">
+			<h2>Results:</h2>
+			<button id="calculate_results_button">Calculate Results</button>
+			<p id="results_output_slot"></p>
+		</div>
+	  </div>
+	  <p id="disclaimer">Please Note: This is an unfinished version. It does not, for example, include surplus-vote agreements. This also means the total seat count might change sometimes.</p>
+    </body>
+	<script src="baderofer.js"></script> <!--I've been informed this (putting the script at the end and not in <head> negates the need for window.onload in javascript? If that's wrong i'll just face the consequences eventually-->
+</html>

@@ -1,0 +1,28 @@
+body {
+	font-family: Segoe UI;
+}
+
+#bader_ofer_input {
+	float: left;
+	width: 50%;
+	background: lightblue; /*The colors are for debug purposes. Remember to remove them once I'm done*/
+}
+
+#bader_ofer_output {
+	float: right;
+	width: 50%;
+	background: lightgreen; /*The colors are for debug purposes. Remember to remove them once I'm done*/
+}
+
+#party_add_button, #calculate_results_button {
+	margin: 0;
+	position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#disclaimer {
+	position: fixed;
+    bottom: 0;
+}
